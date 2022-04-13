@@ -101,19 +101,24 @@ main .apropos p:last-child {
 main .section-cards {
   background-color: #F6F6F6;
   text-align: center;
-  height: 100vh;
+  height: 90vh;
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 8vh 0;
 }
 main .section-cards .cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
   gap: 3rem;
+  margin: auto !important;
 }
 main .section-cards .cards div {
+  width: 35vw;
   background-color: white;
   border: 1px solid grey;
+}
+main .section-cards .cards div img {
+  width: 100%;
 }
 main .section-cards .buttons button {
   background-color: #F32853;

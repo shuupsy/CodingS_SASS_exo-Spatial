@@ -74,17 +74,23 @@ main
     .section-cards
         background-color: #F6F6F6
         text-align: center
-        height: 100vh
+        height: 90vh
         display: grid
         justify-content: center
         align-items: center
+        padding: 8vh 0
         .cards
-            display: grid
-            grid-template-columns: repeat(2,1fr)
+            // display: grid
+            // grid-template-columns: repeat(2,1fr)
+            display: flex
             gap: 3rem
+            margin: auto !important
             div
+                width: 35vw
                 background-color: white
                 border: 1px solid grey
+                img
+                    width: 100%
         .buttons
             button
                 @include btn-p
