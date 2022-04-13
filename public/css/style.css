@@ -19,7 +19,7 @@ header {
   background-image: url("../images/banner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: rgba(0, 0, 0, 0.4549019608);
+  background-color: rgba(35, 32, 36, 0.5843137255);
   background-blend-mode: darken;
   height: 80vh;
 }
@@ -46,9 +46,21 @@ header nav ul a {
 header .floatdiv {
   text-align: center;
   position: absolute;
-  top: 35%;
-  left: 25%;
+  top: 27%;
   right: 25%;
+  left: 25%;
+}
+header .floatdiv h3 {
+  margin: 4vh 0;
+}
+header .floatdiv button {
+  background-color: #F32853;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  border: none;
+  border-radius: 5%;
+  padding: 20px 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
