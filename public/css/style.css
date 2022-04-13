@@ -14,6 +14,11 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+h1 {
+  font-size: 3rem;
+  color: white;
+}
+
 h2 {
   font-size: 2rem;
   color: #484848;
@@ -61,17 +66,10 @@ header .floatdiv {
   right: 25%;
   left: 25%;
 }
-header .floatdiv h1 {
-  font-size: 3rem;
-  color: white;
-}
 header .floatdiv h3 {
   margin: 4vh 0;
   text-transform: uppercase;
   line-height: 1.5rem;
-  font-size: 1rem;
-  color: #AAAAAA;
-  font-weight: normal;
 }
 header .floatdiv button {
   background-color: #F32853;
