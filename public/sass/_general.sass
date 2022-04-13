@@ -95,21 +95,6 @@ main
                 margin: 0 0.8rem
             #btn-b
                 background-color: #323037
-    // Section intouch
-    .intouch
-        background-image: url('../images/banner.jpg')
-        background-size: 100%
-        background-repeat: no-repeat
-        background-position: center
-        background-color: #23202495
-        background-blend-mode: darken
-        height: 50vh
-        position: relative
-        div
-            @extend .floatdiv
-            top: 25%
-            h1
-                font-size: 2rem
 
     // Sections maps
     .maps
@@ -137,6 +122,22 @@ main
                     padding-left: 1rem
             img
                 @include maps-img
+
+    // Section intouch
+    .intouch
+        background-image: url('../images/banner.jpg')
+        background-size: 100%
+        background-repeat: no-repeat
+        background-position: center
+        background-color: #23202495
+        background-blend-mode: darken
+        height: 50vh
+        position: relative
+        div
+            @extend .floatdiv
+            top: 25%
+            h1
+                font-size: 2rem
 
 footer
     background-color: $bg-grey
