@@ -119,13 +119,12 @@ main
         .maps-container
             display: grid
             grid-template-columns: repeat(2,1fr)
-            gap: 1rem
+            gap: 2rem
             .maps-item
-                display: grid
-                grid-template-columns: repeat(2,1fr)
-                justify-content: end
+                display: flex
                 .maps-txt-end
                     text-align: end
+                    padding-right: 1rem
             img
                 @include maps-img
                 text-align: end

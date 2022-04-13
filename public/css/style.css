@@ -156,15 +156,14 @@ main .maps {
 main .maps .maps-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 2rem;
 }
 main .maps .maps-container .maps-item {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  justify-content: end;
+  display: flex;
 }
 main .maps .maps-container .maps-item .maps-txt-end {
   text-align: end;
+  padding-right: 1rem;
 }
 main .maps .maps-container img {
   border-radius: 50%;
