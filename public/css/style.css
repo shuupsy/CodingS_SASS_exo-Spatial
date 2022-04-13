@@ -2,5 +2,44 @@
   font-family: "Lato";
   src: url("../fonts/Lato-Light.ttf");
 }
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  color: grey;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  color: grey;
+  background-image: url("../images/banner.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 85vh;
+}
+header nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 6vh 4vh;
+  color: white;
+}
+header nav p {
+  font-size: 1rem;
+}
+header nav p span {
+  font-weight: 800;
+}
+header nav ul {
+  display: flex;
+  justify-content: end;
+}
+header nav ul a {
+  color: white;
+  padding-left: 3vw;
+}
 
 /*# sourceMappingURL=style.css.map */
