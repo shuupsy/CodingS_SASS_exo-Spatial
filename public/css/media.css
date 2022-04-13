@@ -110,5 +110,14 @@
     margin: 1vh;
   }
 }
+@media screen and (max-width: 1024px) {
+  main .maps .maps-container .maps-item {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+  main .maps .maps-container .maps-item:nth-of-type(even) {
+    grid-template-columns: 1fr 3fr;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */

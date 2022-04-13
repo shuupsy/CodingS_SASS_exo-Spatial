@@ -79,5 +79,12 @@
                 border: none
                 margin: 1vh
 
-
-        
+@media screen and (max-width:1024px)
+    main
+        .maps
+            .maps-container
+                .maps-item
+                    display: grid
+                    grid-template-columns: 3fr 1fr
+                    &:nth-of-type(even)
+                        grid-template-columns: 1fr 3fr
