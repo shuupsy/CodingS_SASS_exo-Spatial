@@ -70,8 +70,20 @@ main
     .section-cards
         background-color: #F6F6F6
         text-align: center
-        padding: 8vh 0
-        h3
-            margin-top: 10px
-            margin-bottom: 8vh
-
+        height: 100vh
+        display: grid
+        justify-content: center
+        align-items: center
+        .cards
+            display: grid
+            grid-template-columns: repeat(2,1fr)
+            gap: 3rem
+            div
+                background-color: white
+                border: 1px solid grey
+        .buttons
+            button
+                @include btn-p
+                margin: 0 0.8rem
+            #btn-b
+                background-color: #323037

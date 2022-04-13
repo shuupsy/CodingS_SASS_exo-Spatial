@@ -100,11 +100,32 @@ main .apropos p:last-child {
 main .section-cards {
   background-color: #F6F6F6;
   text-align: center;
-  padding: 8vh 0;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
-main .section-cards h3 {
-  margin-top: 10px;
-  margin-bottom: 8vh;
+main .section-cards .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+main .section-cards .cards div {
+  background-color: white;
+  border: 1px solid grey;
+}
+main .section-cards .buttons button {
+  background-color: #F32853;
+  color: white;
+  font-weight: bold;
+  display: inline;
+  border: none;
+  border-radius: 5%;
+  padding: 20px 40px;
+  margin: 0 0.8rem;
+}
+main .section-cards .buttons #btn-b {
+  background-color: #323037;
 }
 
 /*# sourceMappingURL=style.css.map */
