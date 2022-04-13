@@ -165,6 +165,10 @@ main .maps .maps-container .maps-item .maps-txt-end {
   text-align: end;
   padding-right: 1rem;
 }
+main .maps .maps-container .maps-item .maps-txt-start {
+  text-align: start;
+  padding-left: 1rem;
+}
 main .maps .maps-container img {
   border-radius: 50%;
   border: 5px solid #AAAAAA;
