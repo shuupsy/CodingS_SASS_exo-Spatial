@@ -149,6 +149,28 @@ main .intouch div {
 main .intouch div h1 {
   font-size: 2rem;
 }
+main .maps {
+  width: 75%;
+  margin: 0 auto;
+}
+main .maps .maps-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+main .maps .maps-container .maps-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: end;
+}
+main .maps .maps-container .maps-item .maps-txt-end {
+  text-align: end;
+}
+main .maps .maps-container img {
+  border-radius: 50%;
+  border: 5px solid #AAAAAA;
+  text-align: end;
+}
 
 footer {
   background-color: #F6F6F6;
