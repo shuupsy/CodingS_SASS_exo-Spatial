@@ -50,6 +50,10 @@ header .floatdiv {
   right: 25%;
   left: 25%;
 }
+header .floatdiv h1 {
+  font-size: 3rem;
+  color: white;
+}
 header .floatdiv h3 {
   margin: 4vh 0;
 }
