@@ -56,6 +56,11 @@ header .floatdiv h1 {
 }
 header .floatdiv h3 {
   margin: 4vh 0;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  color: #AAAAAA;
+  font-weight: normal;
 }
 header .floatdiv button {
   background-color: #F32853;
