@@ -54,6 +54,7 @@ header
             @include btn-p
 
 main
+    // Section a propos
     .apropos
         height: 30vh
         display: grid
@@ -67,6 +68,7 @@ main
         p
             &:last-child
                 margin: 15px auto
+    // Section cards
     .section-cards
         background-color: #F6F6F6
         text-align: center
@@ -87,3 +89,16 @@ main
                 margin: 0 0.8rem
             #btn-b
                 background-color: #323037
+    // Section intouch
+    .intouch
+        background-image: url('../images/banner.jpg')
+        background-size: 100%
+        background-repeat: no-repeat
+        background-position: center
+        background-color: #23202495
+        background-blend-mode: darken
+        height: 50vh
+        div
+            @extend .floatdiv
+
+footer                
