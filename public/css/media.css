@@ -1,4 +1,8 @@
 @media screen and (min-width: 600px) and (max-width: 1024px) {
+  main .apropos {
+    padding: 15vh;
+    height: auto;
+  }
   main .maps .maps-container {
     grid-template-columns: 1fr;
   }
@@ -24,7 +28,7 @@
   }
 
   header {
-    height: 50vh;
+    height: 40vh;
   }
   header nav {
     grid-template-columns: 1fr;
@@ -51,9 +55,9 @@
   }
 
   main .apropos {
-    height: auto;
     grid-template-columns: 1fr;
     padding: 5vh 5vh;
+    height: auto;
   }
   main .apropos p {
     margin: 10px 0;
