@@ -81,4 +81,21 @@ header .floatdiv button {
   padding: 20px 40px;
 }
 
+main .apropos {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  padding: 10vh 45vh 15vh 45vh;
+}
+main .apropos h2 {
+  margin: 5px auto;
+}
+main .apropos h3 {
+  margin: 5px auto;
+}
+main .apropos p:last-child {
+  margin: 15px auto;
+}
+
 /*# sourceMappingURL=style.css.map */
