@@ -97,5 +97,14 @@ main .apropos h3 {
 main .apropos p:last-child {
   margin: 15px auto;
 }
+main .section-cards {
+  background-color: #F6F6F6;
+  text-align: center;
+  padding: 8vh 0;
+}
+main .section-cards h3 {
+  margin-top: 10px;
+  margin-bottom: 8vh;
+}
 
 /*# sourceMappingURL=style.css.map */
